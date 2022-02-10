@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Josefin+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#resultado{
+    background-color: #ffffff;
+    width: 212px;
+    color: black;
+    height: 30px;
+    text-align: right;
+    padding: 3px;
+    border-radius: 3px;
+    margin-left: 3.5px;
+   
+}
+
+.fundo-pagina{
+    background:  linear-gradient(to bottom, #66ccff 0%, #cc66ff 100%);
+    height: 100vh;
+    font-family:  'Josefin Sans', sans-serif;
+    font-weight: 400;
+    color: white;
+
+}
+
+.titulo-calculadora{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: 'Festive', cursive;
+    color: #B40486;
+
+}
+
+.calculadora{
+    background-color: #B40486;
+    box-shadow: 0 0 1em black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+.botoes{
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    margin: 2px;
+    border-radius: 2px;
+}
+
+.botoes:hover{
+    background-color: #FF4ACF;
+    color: #ffffff;
+}
